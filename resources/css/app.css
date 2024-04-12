@@ -1,3 +1,54 @@
+@import 'https://fonts.googleapis.com/css?family=Noto+Sans';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+
+#chatbackground{
+  background-image: url("https://i.pinimg.com/236x/97/04/a3/9704a3edf038940e01dae3d438eb71f0.jpg");
+}
+
+#message{
+  background-color: rgb(137, 137, 211);
+  color: rgb(255, 255, 255);
+  border-radius: 3%;
+}
+#click{
+  color: yellow;
+  font-size: 20px;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+
+.chat-thread {
+  margin: 24px auto 0 auto;
+  padding: 0 20px 0 0;
+  list-style: none;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.chat-thread li {
+  position: relative;
+  clear: both;
+  animation: show-chat-even 0.15s 1 ease-in;
+  -moz-animation: show-chat-even 0.15s 1 ease-in;
+  -webkit-animation: show-chat-even 0.15s 1 ease-in;
+  
+
+  color: #0EC879;
+  padding: 16px 40px 16px 20px;
+  margin: 0 0 20px 0;
+  font: 16px/20px "Noto Sans", sans-serif;
+  border-radius: 10px;
+  background-color: rgba(25, 147, 147, 0.2);
+}
+
+
+
+
+
+
